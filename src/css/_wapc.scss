@@ -1,0 +1,145 @@
+.td-navbar-cover .navbar-brand {
+  color: $primary;
+}
+.navbar-bg-onscroll .navbar-brand {
+  color: #ffffff;
+}
+
+.td-navbar-cover .navbar-nav .nav-link {
+  color: $primary;
+  text-shadow: none;
+}
+
+.td-navbar-cover .navbar-nav .nav-link:hover {
+  color: $secondary;
+  text-shadow: none;
+}
+
+.td-navbar-cover .navbar-nav .td-search-input {
+  border: 1px $primary solid;
+  color: $primary;
+}
+
+.nav-link .active {
+  color: $secondary;
+}
+
+.td-navbar-cover .navbar-nav .td-search-input::placeholder {
+  color: $secondary;
+}
+
+.navbar-bg-onscroll .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.o-logo {
+  width: 33%;
+  max-width: 300px;
+}
+
+.td-cover-block {
+  background: url(/img/hero-bg.jpg) repeat-x center;
+  background-size: 100% 100%;
+  color: #333;
+}
+
+.td-cover-block .display-2 {
+  max-width: 80%;
+  margin: 20px auto;
+}
+
+.bg-dark a {
+  color: $light;
+}
+
+.step {
+  border-radius: 5px;
+  border: 1px solid $light;
+  padding: 1em;
+  margin-bottom: 1em;
+  h3 {
+    font-size: 1.1em;
+  }
+  .step-details {
+    margin-top: 1em;
+  }
+}
+.install {
+  .nav-link {
+    &.active {
+    }
+  }
+}
+
+.wapc-loader {
+  input.form-control::file-selector-button {
+    border-radius: 0;
+    border: 0;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0 1em;
+  }
+  input.form-control[type="file"] {
+    padding: 0;
+  }
+  .divider {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    margin-bottom: 1em;
+  }
+  #log {
+    height: 10em;
+    overflow: auto;
+  }
+  #log > p {
+    animation: fadein 2s;
+    margin: 0;
+  }
+  #log > p.error {
+    color: red;
+    font-weight: bold;
+  }
+
+  #log .helper {
+    padding: 0 10px;
+    margin: -5px 0 0 0;
+    font-size: smaller;
+  }
+
+  #result > * {
+    font-family: monospace;
+    font-weight: bold;
+    animation: fadein 2s;
+  }
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+      background-color: yellow;
+    }
+    20% {
+      opacity: 1;
+    }
+    100% {
+      background-color: transparent;
+    }
+  }
+  #tabs {
+    margin-bottom: 0.5em;
+    width: 100%;
+  }
+  ul li::before {
+    background: none;
+  }
+  ul li {
+    padding: 0;
+    width: 50%;
+    text-align: center;
+  }
+  ul li a {
+    text-decoration: none;
+    color: #999;
+  }
+  .display-none {
+    display: none;
+  }
+}
