@@ -11,6 +11,18 @@
 }
 
 .hiw-img {
-  height: 200px;
-  width: 200px;
+  height: 100%;
+  width: 100%;
+}
+
+.breaka {
+  background-color:#6250E7;
+}
+
+.breakb {
+  background-color:#8B81E3;
+}
+
+.breakc {
+  background-color:#aaa7c5;
 }

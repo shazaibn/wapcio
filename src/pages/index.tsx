@@ -52,12 +52,12 @@ function HomepageHeader() {
         
         <div className={styles.buttons}>
         <Link
-            className="button button--secondary button--lg"
+            className="button button--primary button--lg"
             to="/docs/intro">
             Learn More
           </Link>&nbsp;&nbsp;
           <Link
-            className="button button--secondary button--lg"
+            className="button button--primary button--lg"
             to="https://github.com/wapc/cli">
             Download
           </Link>

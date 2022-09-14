@@ -16,7 +16,7 @@
 .heroTitle {
   text-indent: -9000px;
   width: 300px;
-  height: 251px;
+  height: 250px;
   margin-right: 5rem;
   float: left;
   background-image: url("@site/static/img/logos/wapc-logo.svg");
@@ -24,7 +24,7 @@
 }
 
 [data-theme='dark'] .heroTitle {
-  background-image: url("@site/static/img/logo.svg");
+  background-image: url("@site/static/img/logos/wapc-logo.svg");
 }
 
 .tagLine {
@@ -47,8 +47,8 @@
   }
 
   .heroTitle {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     text-align: center;
     margin: 0 auto;
     float: none;
