@@ -1,5 +1,5 @@
 ---
-slug: long-blog-post
+slug: building
 title: "Building WebAssembly platforms with waPC"
 date: 2021-04-22T10:07:21+06:00
 # post image

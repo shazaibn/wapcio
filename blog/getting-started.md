@@ -12,9 +12,9 @@ attribution_link: https://unsplash.com/photos/MYKAZlzW6Nw
 attribution: Suad Kamardeen
 ---
 
-_Just learning about waPC? Make sure you look at [Building WebAssembly platforms with waPC](/blog/building-webassembly/) for an introduction._
+_Just learning about waPC? Make sure you look at [Building WebAssembly platforms with waPC](/blog/building/) for an introduction._
 
-This tutorial gets you hands-on experience building a waPC guest using Rust and compiling down to WebAssembly. For the guest language you can switch to Go, AssemblyScript, or Zig with only light modifications. When we're done we'll run our guest in the browser with the waPC JavaScript host. Head over to [Building a waPC Host in Node.js](/blog/building-a-wapc-host-in-nodejs/) after to build your own host from scratch.
+This tutorial gets you hands-on experience building a waPC guest using Rust and compiling down to WebAssembly. For the guest language you can switch to Go, AssemblyScript, or Zig with only light modifications. When we're done we'll run our guest in the browser with the waPC JavaScript host. Head over to [Building a waPC Host in Node.js](/blog/nodejs/) after to build your own host from scratch.
 
 ## Installing the `wapc` CLI
 

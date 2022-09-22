@@ -14,7 +14,7 @@ attribution: Steve Johnson
 
 ## Intro
 
-This is the last post in our Intro to waPC series. Make sure to check out part 1: [Building WebAssembly platforms with waPC](/blog/building-webassembly/), and part 2: [Getting started with waPC and WebAssembly](/blog/getting-started/).
+This is the last post in our Intro to waPC series. Make sure to check out part 1: [Building WebAssembly platforms with waPC](/blog/building/), and part 2: [Getting started with waPC and WebAssembly](/blog/getting-started/).
 
 ## Writing your waPC host
 
