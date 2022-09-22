@@ -49,6 +49,10 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: 'G-TTGDVD2844',
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
@@ -79,6 +83,11 @@ const config = {
             label: 'waPC Protocal Details', 
             position: 'right'
           },
+          {
+            to: 'blog', 
+            label: 'Blog', 
+            position: 'left'
+          }, 
         ],
       },
       footer: {

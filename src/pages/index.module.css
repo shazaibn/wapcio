@@ -13,14 +13,19 @@
   overflow: hidden;
 }
 
+[data-theme='light'] .heroBanner {
+  color: black;
+}
+
 .heroTitle {
   text-indent: -9000px;
-  width: 300px;
-  height: 250px;
-  margin-right: 5rem;
+  width: 400px;
+  height: 400px;
+  margin-right: 10rem;
   float: left;
   background-image: url("@site/static/img/logos/wapc-logo.svg");
-  background-size: cover;
+  background-size:auto;
+  background-repeat: no-repeat;
 }
 
 [data-theme='dark'] .heroTitle {
@@ -41,14 +46,18 @@
   justify-content: left;
 }
 
+[data-theme='dark'] .button {
+  color: white;
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
   }
 
   .heroTitle {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     text-align: center;
     margin: 0 auto;
     float: none;
@@ -64,4 +73,5 @@
     align-items: center;
     justify-content: center;
   }
+  
 }

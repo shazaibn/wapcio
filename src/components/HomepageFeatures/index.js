@@ -166,6 +166,7 @@ const StepsList = [
     description: (
       <>
       <div class="install step-details"></div>
+      {/* {{< wapc-loader >}} */}
       </>
     ),
   },
@@ -252,7 +253,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-      <div className={styles.breaka}>
+      <div className={styles.break}>
           <br/>
           <h1 className="text--center">Quickstart</h1>
           <br/>
@@ -261,7 +262,7 @@ export default function HomepageFeatures() {
           {StepsList.map((props, idx) => (
             <Steps key={idx} {...props} />
           ))}
-      <div className={styles.breakb}>
+      <div className={styles.break}>
           <br/>
           <h1 className="text--center">The waPC tool suite</h1>
           <br/>
@@ -273,7 +274,7 @@ export default function HomepageFeatures() {
           ))}
         </div>
         <br/>
-        <div className={styles.breakc}>
+        <div className={styles.break}>
           <br/>
           <h1 className="text--center">How it works</h1>
           <br/>
